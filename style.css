@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-    width: 100px;
+    width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -56,9 +56,6 @@ header {
     background-color: #ff385c;
     padding: 20px 20px 0 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -140,3 +137,57 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    form {
+        border: 2px solid #ff385c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form button {
+        background-color: #ff385c;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    form select,
+    form input {
+        width: 100%;
+    }
+
+    .group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .item {
+        flex: 1;
+        margin: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .item-double {
+        flex: 2;
+    }
+}
