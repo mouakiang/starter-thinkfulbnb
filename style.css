@@ -166,9 +166,8 @@ footer p {
         border: none;
         color: #fff;
         font-size: 15px;
-        padding: 10px 20px;
-        width: 100;
-        margin-left: 10px;
+        padding: 15px 15px;
+        width: 100%;
     }
 
     form select,
@@ -180,7 +179,6 @@ footer p {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 10px;
     }
 
     .item {
