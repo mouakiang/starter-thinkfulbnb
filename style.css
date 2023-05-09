@@ -199,4 +199,14 @@ footer p {
     form .item {
         width: 15%;
     }
+
+    .row {
+        flex: 1;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
 }
