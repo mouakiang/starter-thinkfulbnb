@@ -191,4 +191,12 @@ footer p {
     .item-double {
         flex: 2;
     }
+
+    .logo {
+        font-size: 45px;
+    }
+
+    form .item {
+        width: 15%;
+    }
 }
